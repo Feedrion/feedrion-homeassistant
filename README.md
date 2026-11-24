@@ -114,7 +114,7 @@ node render.mjs      # or: node render.mjs en fr
 
 ## Install
 
-1. HACS ▸ ⋮ ▸ Custom repositories ▸ `https://github.com/max28/feedrion-homeassistant`,
+1. HACS ▸ ⋮ ▸ Custom repositories ▸ `https://github.com/Feedrion/feedrion-homeassistant`,
    category *Integration*. Install **Feedrion**, restart Home Assistant.
 2. Settings ▸ Devices & services ▸ Add integration ▸ **Feedrion**.
 3. A code appears. In the Feedrion app, open Settings ▸ Integrations ▸
@@ -135,7 +135,7 @@ quote provider you chose. Feedrion never connects to your Home Assistant.
 
 ```bash
 cosign verify-blob feedrion.zip --bundle feedrion.zip.sigstore.json \
-  --certificate-identity-regexp '^https://github.com/max28/feedrion-homeassistant/\.github/workflows/release\.yml@refs/heads/main$' \
+  --certificate-identity-regexp '^https://github.com/Feedrion/feedrion-homeassistant/\.github/workflows/release\.yml@refs/heads/main$' \
   --certificate-oidc-issuer https://token.actions.githubusercontent.com
 ```
 
