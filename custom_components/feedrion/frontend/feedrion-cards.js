@@ -2042,7 +2042,7 @@ if (typeof customElements !== "undefined") {
     if (!customElements.get(tag)) customElements.define(tag, cls);
     if (!window.customCards.some((c) => c.type === tag)) {
       window.customCards.push({ type: tag, name, description, preview: true,
-        documentationURL: "https://github.com/max28/feedrion-homeassistant#cards" });
+        documentationURL: "https://github.com/Feedrion/feedrion-homeassistant#cards" });
     }
   }
 }
